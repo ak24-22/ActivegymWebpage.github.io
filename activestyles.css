@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000c4;
+}
+
+body {
+    
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, 'sans-serif';
+}
+
+li,a,button {
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #dad9d9;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: #6495ed;
+}
+
+
+.Active-Logo {
+    height: 11%;
+    width: 21%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 10%;
+    background-color: rgb(32, 32, 32);
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.1em;
+    margin: 0.1em;
+    transition: all 0.3s ease 0s;
+}
+
+button {
+    padding: 0.5em;
+    background-color: rgba(100, 149, 237, 0.5);
+    border: none;
+    border-radius: 10%;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(100, 149, 237, 0.8); 
+}
+
+.wactgym {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Resize-wag {
+    height: 4em;
+    width: 5em;
+}
+
+.textblock1 {
+    color: #fff;
+}
+
+span {
+    color: #6495ed;
+}
